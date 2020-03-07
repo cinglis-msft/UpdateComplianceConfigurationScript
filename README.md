@@ -1,6 +1,6 @@
-# The Upgrade Readiness Deployment Script
+# The Update Compliance Configuration Script
 
-This script is discontinued for public use due to the retirement of Upgrade Readiness on January 31, 2020. However, it is a useful troubleshooting tool to ensure devices are configured correctly to send telemetry to Update Compliance.
+This script is intended to configure devices to send data to Update Compliance, fulfilling all necessary requirements on the client. It can also be used for troubleshooting. 
 
 ## How this script is organized
 
