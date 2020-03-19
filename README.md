@@ -1,6 +1,6 @@
 # The Update Compliance Configuration Script
 
-This script is intended to configure devices to send data to Update Compliance, fulfilling all necessary requirements on the client. It can also be used for troubleshooting. 
+This script is intended to configure devices to send data to Update Compliance. It can also be used for troubleshooting in the event a different configuration method was used. 
 
 ## How this script is organized
 
