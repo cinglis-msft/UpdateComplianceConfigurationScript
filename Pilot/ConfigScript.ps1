@@ -879,14 +879,7 @@ function CheckMSAService
 
         if($serviceStartMode.ToString().ToLower() -eq "disabled")
         {           
-            if($global:osBuildNumber -lt 16300)
-            {
-                Log "Microsoft Account Sign In Assistant Service is Disabled. Please make sure the service is up and running." "Error" "54" "CheckMSAService"
-            }
-            else
-            {
-                Log "Microsoft Account Sign In Assistant Service Disabled. Device will send SqmId instead of GlobalId"
-            }                        
+            Log "Microsoft Account Sign In Assistant Service is Disabled. Please make sure the service is up and running." "Error" "54" "CheckMSAService"                     
         }
         else
         {
